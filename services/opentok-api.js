@@ -1,7 +1,5 @@
 'use strict';
 
-const { apiKey, apiSecret } = require('../config');
-
 const OpenTok = require('opentok');
 const OT = new OpenTok(apiKey, apiSecret);
 
