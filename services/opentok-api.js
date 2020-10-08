@@ -1,5 +1,7 @@
 'use strict';
 
+const { apiKey, apiSecret } = require(process.env.apiKey, process.env.apiSecret);
+
 const OpenTok = require('opentok');
 const OT = new OpenTok(apiKey, apiSecret);
 
