@@ -9,8 +9,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon * node index.js",
-    "lint": "eslint",
-    "heroku-postbuild": "node .heroku/post-deploy.js"
+    "lint": "eslint"
   },
   "repository": {
     "type": "git",
